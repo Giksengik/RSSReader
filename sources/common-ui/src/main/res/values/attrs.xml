@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="TintedImageView">
+        <attr name="typeOfTint" format="enum">
+            <enum name="solid" value="0"/>
+            <enum name="gradient_vertical" value="1"/>
+            <enum name="gradient_horizontal" value="2"/>
+            <enum name="gradient_diagonal_r" value="3"/>
+            <enum name="gradient_diagonal_l" value="4"/>
+
+        </attr>
+        <attr name="tintColor" format="color"/>
+        <attr name="gradientStartTintColor" format="color"/>
+        <attr name="gradientEndTintColor" format="color"/>
+        <attr name="tintTransparency" format="float"/>
+    </declare-styleable>
+</resources>

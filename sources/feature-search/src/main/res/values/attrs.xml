@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="TopicCardView">
+        <attr name="topGradientColor" format="color"/>
+        <attr name="bottomGradientColor" format="color"/>
+        <attr name="titleText" format="string"/>
+        <attr name="subtitleText" format="string"/>
+        <attr name="backgroundSrc"  format="reference"/>
+    </declare-styleable>
+</resources>
